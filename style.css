@@ -1,0 +1,114 @@
+body{
+    background-color: #151518;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 70%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #000000;
+    border: 1px solid grey;
+}
+#antena{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 32%;
+    width: 15%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.antena{
+    background-color: #6F862F;
+}
+.first-antena{
+    height: 80%;
+    width: 3%;
+    border-radius: 45%;
+    transform: rotate(-40deg);
+    margin-left: 20%;
+}
+.second-antena{
+    height: 80%;
+    width: 3%;
+    border-radius: 40%;
+    transform: rotate(40deg);
+    margin-left: 40%;
+
+}
+.semi-circle{
+    height:80px;
+    width:20%;
+    border-radius: 90px 90px 0 0;
+    -moz-border-radius: 90px 90px 0 0;
+    -webkit-border-radius: 90px 90px 0 0;
+    background: radial-gradient(circle at 50% 120%, rgb(228, 247, 172), rgb(224, 248, 157) 20%, rgb(58, 77, 19) 70%, #182406 100%);
+    margin-left: 45%;
+    margin-top: 13%;
+    border-bottom: 3px solid #607612;
+}
+.semi-circle .eye {
+   background-color: white;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   position: absolute;
+   top: 25%;
+   left: 51%;
+  
+}
+.semi-circle .first-eye {
+    top: 25%;
+    left: 51%;
+    
+ }
+ .semi-circle .second-eye {
+    top: 25%;
+    left: 55%;
+}
+.droid-body{
+    display: block;
+    width: 20.5%;
+    height: 180px;
+    border-radius: 5% 5% 20% 20% / 10% 10% 10% 10%;
+    background: linear-gradient(to right, rgb(182, 207, 98),  rgb(33, 41, 8) 30%, rgb(99, 121, 20) 70%);
+    position: relative;
+    margin-left: 44.7%;
+    margin-top: 1%;
+    border-top:3px solid rgb(99, 121, 20);
+    border-bottom:thick double rgb(49, 61, 12);
+    z-index: 1;
+}
+.hand{
+    display: block;
+    width: 3%;
+    height: 140px;
+    border-radius: 50% 50% 50% 50% / 20% 20% 50% 50%;
+    background: linear-gradient(to right, rgb(182, 207, 98),  rgb(33, 41, 8) 30%, rgb(99, 121, 20) 70%) ;
+    position: absolute;
+}
+.first-hand{
+    left: 42.5%;
+    top: 40%;
+}
+.second-hand{
+    left: 61.5%;
+    top: 40%;
+}
+.leg{
+    display: block;
+    width: 3%;
+    height: 100px;
+    border-radius: 70% 70% 70% 70% / 60% 60% 40% 40%;
+    background: linear-gradient(to right, rgb(182, 207, 98),  rgb(33, 41, 8) 30%, rgb(99, 121, 20) 70%) ;
+    position: absolute;
+}
+.first-leg{
+    left: 49%;
+    top: 60%;
+}
+.second-leg{
+    left: 55%;
+    top: 60%;
+}
